@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    padding-right: 10%;
+    padding-left: 10%;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+nav {
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-brand {
+    margin-right: 2%;
+    font-weight: 800;
+}
+
+.navbar-brand:hover {
+    color: #28a745;
+}
+
+.nav-item a {
+    margin-left: 20px;
+}
+
+.my-sm-0 {
+    margin-left: 40px;
+}
+
+.carousel-item {
+    vertical-align: middle;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.space {
+    height: 20px !important;
+    width: 100%;
+}
+
+.card {
+    border: none !important;
+}
+
+h2 {
+    /* font-family: 'Berkshire Swash', cursive; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 180%;
+    text-align: center;
+    padding-bottom: 7px;
+    border-bottom: 2px black solid;
+    overflow: hidden;
+}
+
+.page-footer {
+    background-color: rgba(218, 216, 216, 0.527) !important;
+}
+
+
+/* css for gallery */
+
+.gall img {
+    filter: brightness(.7);
+}
+
+.gall img:active {
+    filter: brightness(1);
+    transform: scale(1.1);
+}
+
+
+/* css for Events */
+
+.event img {
+    filter: brightness(.6);
+}
+
+.event img:hover {
+    filter: brightness(1);
+}
